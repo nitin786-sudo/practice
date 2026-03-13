@@ -13,3 +13,11 @@ resource "azurerm_storage_account" "stg2" {
     account_tier = "Standard"
     account_replication_type = "LRS"
 }
+
+resource "azurerm_storage_account" "stg3" {
+    name = "stgprod12345"
+    location = "eastus"
+    resource_group_name = "mahatma_gandhi"
+    account_tier = "Standard"
+    account_replication_type = "LRS"
+}
