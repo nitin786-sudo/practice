@@ -8,6 +8,11 @@ resource "azurerm_resource_group" "rg2" {
     location = "eastus"
 }
 
+
+resource "azurerm_resource_group" "rg27" {
+    name = "mahatma_ganbkjjbkjdhiee"
+    location = "eastus"
+}
 resource "azurerm_resource_group" "rg3" {
     name = "mahatma_gdhiee"
     location = "eastus"
